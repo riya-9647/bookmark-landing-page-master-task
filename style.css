@@ -149,21 +149,16 @@ body {
 
 /* inner section start */
 .inner {
-  /* width: 100%; */
+  width: 100%;
   height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border-bottom: 1px solid var(--Grayish-Blue); */
-
-  /* position: relative; */
-  /* left: 35%; */
-  /* margin-top: 30px; */
-  /* border-bottom: 1px solid var(--Grayish-Blue); */
 }
 .simplebox {
-  /* width: 30%; */
-  align-items: center;
+  width: 15%;
+  text-align: center;
+  padding-bottom: 40px;
   border-bottom: 1px solid var(--Grayish-Blue);
 }
 .inner .simplebox:hover {
@@ -474,11 +469,14 @@ section.big {
   .inner {
     flex-direction: column;
     width: 100%;
+    height: 100%;
   }
   .simplebox {
-    width: 100%;
-    margin-left: 30px;
+    width: 80%;
+    text-align: center;
+    /* margin-left: 30px; */
     /* border: none; */
+    padding: 15px 0;
   }
   .item {
     flex-direction: column;
@@ -495,6 +493,7 @@ section.big {
   .itemright {
     width: 100%;
     margin-left: 30px;
+    margin-top: 30px;
   }
 
   .featureSection {
@@ -506,6 +505,12 @@ section.big {
   }
   .smallfeature p {
     margin-left: 20px;
+  }
+  .bookmark {
+    width: 100%;
+  }
+  .bookcontent {
+    width: 100%;
   }
 
   .download {
@@ -526,12 +531,25 @@ section.big {
   }
   .frequesct {
     flex-direction: column;
-    width: 100%;
+    width: 90%;
   }
   .frequesct .frequesct_container {
-    width: 100%;
+    width: 70%;
   }
   .morebutnin {
+  }
+  section.big {
+    height: 100%;
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  .form {
+    flex-direction: column;
+    /* margin-bottom: 20px; */
+    /* gap: 10px; */
+  }
+  .last {
+    margin-bottom: 20px;
   }
 
   .lastbox {
@@ -552,5 +570,8 @@ section.big {
   .footerright {
     flex-direction: column;
     width: 100%;
+  }
+  .mainlogo {
+    margin-top: 20px;
   }
 }
